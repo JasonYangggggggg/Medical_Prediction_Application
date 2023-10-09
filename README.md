@@ -13,7 +13,8 @@ In order to run this application, you need HuggingFace Access Token. This can be
 
 
 Streamlit Application Page: 
-![image](https://github.com/JasonYangggggggg/Medical_Prediction_Application/assets/109561939/5378d974-4c5d-41a2-86e0-563d411e0987)
+![image](https://github.com/JasonYangggggggg/Medical_Prediction_Application/assets/109561939/fb44effb-b5c1-429f-9501-2b7dfa492034)
+
 
 
 
