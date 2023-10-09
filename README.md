@@ -17,6 +17,12 @@ Streamlit Application Page:
 
 
 
+The Web Application Page:
+![image](https://github.com/JasonYangggggggg/Medical_Prediction_Application/assets/109561939/44c8b658-a42f-4a09-a862-deb703d15e53)
+
+
+
+
 
 
 
