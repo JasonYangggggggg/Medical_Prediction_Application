@@ -14,7 +14,7 @@ import einops
 from torch import cuda, bfloat16
 
 
-os.environ['HUGGINGFACEHUB_API_TOKEN'] = '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'
+os.environ['HUGGINGFACEHUB_API_TOKEN'] = ''
 
 st.title("Medical Fine Tune Model Prototype")
 st.image("Medical.jpg", width=150)
