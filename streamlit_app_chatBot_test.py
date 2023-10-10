@@ -16,20 +16,20 @@ from torch import cuda, bfloat16
 
 os.environ['HUGGINGFACEHUB_API_TOKEN'] = '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'
 
-st.title("Baymax Fine Tune Model Prototype")
-st.image("Baymax.jpg", width=150)
+st.title("Medical Fine Tune Model Prototype")
+st.image("Medical.jpg", width=150)
 #covid_model = joblib.load("Covid_prediction_model.pkl")
 #test_random_data = [1, 0, 1, 0, 1, 1, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 1]
 #data_transform = np.array([test_random_data])
 question = st.text_input("Enter your question here")
 str_button = st.button("Predict")
 with st.sidebar:
-    st.title("Baymax Prototype with (Google LLM)")
+    st.title("Medical Ai Prototype with (Google LLM)")
     st.warning("Only the right prompt can give you approperate answer")
     st.info("Example: I have Headache, Do I have Covid?")
     st.info("I have Asthma, do I have Covid 19?")
     st.info("I have Contact_With_Covid_Patient, what is the chance for Covid 19?")
-    st.image("Baymax2.jpg", width=500)
+    st.image("Medical2.jpg", width=500)
     st.success("Your Personal Healthcare companion")
 target = []
 for i in range(20):
