@@ -97,7 +97,7 @@ def prediction(input):
     
 
 def responseLLM(input):
-    os.environ["HUGGINGFACEHUB_API_TOKEN"] = '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' #Put your token in here
+    os.environ["HUGGINGFACEHUB_API_TOKEN"] = '' #Put your token in here
     prediction_res = prediction(input)
     if prediction_res == None:
         return "Not enought information"
